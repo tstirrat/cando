@@ -1,0 +1,25 @@
+@import "ember-paper";
+@import "components/new-todo";
+@import "components/list-demo";
+
+.container {
+  max-width: 900px;
+  margin: auto;
+}
+
+.pull-right {
+  display: block;
+  float: right;
+}
+
+.remaining-days {
+  .remaining-days.warning {
+    color: orange;
+    font-weight: bold;
+  }
+
+  .remaining-days.danger {
+    color: red;
+    font-weight: bold;
+  }
+}

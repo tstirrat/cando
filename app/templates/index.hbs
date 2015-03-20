@@ -1,0 +1,7 @@
+<h2>Lists</h2>
+
+<ul>
+{{#each list in model}}
+  <li>{{#link-to 'lists.show' list}}{{list.name}}{{/link-to}}</li>
+{{/each}}
+</ul>

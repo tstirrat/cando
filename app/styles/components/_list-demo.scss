@@ -1,0 +1,18 @@
+.list-demo {
+  md-checkbox .md-label {
+    display: none;
+  }
+
+  .list-due-date {
+    display: none;
+    margin-left: 30px;
+    color: rgba(0,0,0,0.50);
+    font-size: 0.7em;
+  }
+
+  .paper-list {
+    md-checkbox > .md-container {
+      top: 2px;
+    }
+  }
+}

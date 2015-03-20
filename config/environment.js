@@ -4,6 +4,8 @@ module.exports = function(environment) {
   var ENV = {
     modulePrefix: 'cando',
     environment: environment,
+    contentSecurityPolicy: { 'connect-src': "'self' wss://*.firebaseio.com" },
+    firebase: 'https://torrid-inferno-6542.firebaseio.com/cando',
     baseURL: '/',
     locationType: 'auto',
     EmberENV: {

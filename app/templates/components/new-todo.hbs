@@ -1,0 +1,10 @@
+{{#paper-card}}
+  {{#paper-card-content}}
+    <h4>New Task</h4>
+    <form {{action "createNew" on="submit"}}>
+    {{paper-text label="Name" value=name}}
+    {{paper-text label="Due Date" type="datetime" value=dueDate}}
+    {{#paper-button type="submit" raised=true classNames="md-primary"}}Add{{/paper-button}}
+    </form>
+  {{/paper-card-content}}
+{{/paper-card}}
